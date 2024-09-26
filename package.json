@@ -1,0 +1,38 @@
+{
+  "name": "msw-react",
+  "version": "1.0.0",
+  "description": "Minimal usage example of Mock Service Worker in a React application.",
+  "keywords": [
+    "msw",
+    "mocking",
+    "react",
+    "api"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@testing-library/jest-dom": "4.1.0",
+    "@testing-library/react": "^14.2.0",
+    "msw": "^2.1.5",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "msw": {
+    "workerDirectory": "public"
+  }
+}
